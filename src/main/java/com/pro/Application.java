@@ -23,7 +23,7 @@ public class Application {
 	public static void main(String[] args) 
 	{
 	SpringApplication.run(Application.class, args);
-	//feature 1 project
+	//feature 1 project from local to remote
     	System.out.println("The feature1 branch changes");
     	}
 
