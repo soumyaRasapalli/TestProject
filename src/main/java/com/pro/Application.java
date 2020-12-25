@@ -24,10 +24,8 @@ public class Application {
 	{
 	  SpringApplication.run(Application.class, args);
 	  //feature 1 project from local to remote
-    System.out.println("The feature1 branch changes");
-    System.out.println("Feature2 branch changes");
-    System.out.println("Master branch changes");
-    }
+      System.out.println("The feature1 branch changes");
+     }
 
   @Scheduled(cron = "0 40/5 12 * * ?")
   public void perform() throws Exception
