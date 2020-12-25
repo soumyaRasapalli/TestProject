@@ -22,7 +22,7 @@ public class Application {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-                System.out.println("The feature2 branch changes");
+                System.out.println("The feature1 branch changes");
 	}
 
 	@Scheduled(cron = "0 40/5 12 * * ?")
