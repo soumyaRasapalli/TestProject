@@ -22,7 +22,7 @@ public class Application {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-
+                System.out.println("feature branch project");
 	}
 
 	@Scheduled(cron = "0 40/5 12 * * ?")
