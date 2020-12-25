@@ -22,7 +22,7 @@ public class Application {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-		System.out.println("The master branch changes");
+		System.out.println("Master branch changes");
 
 	}
 
